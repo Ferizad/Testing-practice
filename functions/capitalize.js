@@ -1,6 +1,6 @@
 function capitalize(string) {
     if (typeof string !== "string") {
-      throw new TypeError("Argument must be a string");
+      throw new TypeError("Argument should be a string");
     }
   
     if (string.length === 0) {

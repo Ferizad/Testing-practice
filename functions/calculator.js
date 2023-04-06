@@ -1,15 +1,15 @@
 class Calculator{
-    static Add(a,b){
-      return a + b
+    static Add(x,y){
+      return x + y
     }
-    static Subtract(a,b){
-      return a - b
+    static Subtract(x,y){
+      return x - y
     }
-    static Divide(a,b){
-      return a / b
+    static Divide(x,y){
+      return x / y
     }
-    static Multiply(a,b){
-      return a * b
+    static Multiply(x,y){
+      return x * y
     }
   }
   module.exports = Calculator; 
